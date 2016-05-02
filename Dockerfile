@@ -2,6 +2,9 @@
 
 FROM jenkins:2.0-alpine
 
+COPY plugins.txt /usr/share/jenkins/plugins.txt
+RUN /usr/local/bin/plugins.sh /usr/share/jenkins/plugins.txt
+
 # Alpine golang 1.6.2 ----------------------------------------------------------
 
 USER root

@@ -1,6 +1,6 @@
 # `alpine-jenkins-golang`
 
-Get alpine, jenkins, and golang for a build instance.
+Get alpine, jenkins, and golang for a build instance, and installs the AWS CodePipeline image.
 
 ## Available on hub.docker.com
 

@@ -1,0 +1,1 @@
+	aws-codepipeline:0.12
